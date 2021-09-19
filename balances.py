@@ -1,7 +1,7 @@
 import api_keys
 from Brokers import Broker_P
 import sys
-c = Broker_P("whatsapp:+18098540525",api_keys.api_key,api_keys.api_secret)
+c = Broker_P("whatsapp:+PHONE",api_keys.api_key,api_keys.api_secret)
 def show_data():
 	print("Balance USDT\n")
 	print(c.process_command(['balance'])[0])
